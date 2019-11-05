@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+    <Authors>Filip Straka</Authors>
+    <Company>F4pl0industries</Company>
+    <Description>Library for communication with the Asseco group Ingenico POS device.</Description>
+    <Copyright>Filip Straka 2019</Copyright>
+    <RepositoryUrl>https://github.com/F4pl0/ingenico-pos-dotnet-lib</RepositoryUrl>
+    <RepositoryType>Github Repository</RepositoryType>
+    <PackageReleaseNotes />
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.IO.Ports" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
