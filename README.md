@@ -1,4 +1,5 @@
 # ingenico-pos-dotnet-lib
+[![Build Status](https://travis-ci.org/F4pl0/ingenico-pos-dotnet-lib.svg?branch=master)](https://travis-ci.org/F4pl0/ingenico-pos-dotnet-lib)  
 .netstandard2.0 Class library for communication with Asseco Group Ingenico POS Device written in C#
 ## Info
 * Developed in Visual Studio 2019
